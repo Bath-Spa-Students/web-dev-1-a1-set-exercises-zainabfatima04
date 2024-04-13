@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chapter 1: Bonus Exercise</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Dongle:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        HTML & CSS Quick Reference Guide
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#html">HTML Tags</a></li>
+          <li><a href="#css">CSS Properties</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="#html">
+      <h2>
+        HTML Tags
+      </h2>
+      <h3>
+        &lt;p&gt;
+      </h3>
+      <p>
+        The <code>&lt;p&gt;</code> tag defines a paragraph.
+      </p>
+      <pre><code>&lt;p&gt;This is some text in a paragraph.&lt;/p&gt;</code></pre>
+      <p>This is some text in a paragraph.</p>
+      <h3>
+        &lt;div&gt;
+      </h3>
+      <p>
+        The <code>&lt;div&gt;</code> defines a division in an HTML document.
+        It is used as a container for HTML elements.
+      </p>
+      <pre><code>
+        &lt;div&gt;
+         &lt;h2>This is a heading in a div element&lt;/h2&gt;
+         &lt;p>This is some text in a div element.&lt;/p&gt;
+        &lt;/div&gt;
+      </code></pre>
+      <div class="my-div">
+        <h2 class="div-heading">This is a heading in a div element</h2>
+        <p>This is some text in a div element.</p>
+      </div>
+      <h3>
+        &lt;button&gt;
+      </h3>
+      <p>
+        The <code>&lt;button&gt;</code> tag defines a clickable button.
+        You can put text inside a <code>&lt;button&gt;</code> element.
+      </p>
+      <pre><code>&lt;button&gt;SUBSCRIBE&lt;/button&gt;</code></pre>
+      <button class="subscribe-button">
+        SUBSCRIBE
+      </button>
+      <h3>
+        &lt;a&gt;
+      </h3>
+      <p>
+        The <code>&lt;a&gt;</code> tag defines a hyperlink, which is used to link from one page to another.
+      </p>
+      <pre><code>&lt;a href="https://www.google.com/" target="_blank"&gt;Link to Google&lt;/a&gt;</code></pre>
+      <a href="https://www.google.com/" target="_blank">
+        Link to Google
+      </a>
+      <h3>
+        &lt;h1&gt; - &lt;h6&gt;
+      </h3>
+      <p>
+        The <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags are used to define HTML heading.
+        The <code>h1</code> defines the most important heading. <code>h6</code> defines the least important heading.
+      </p>
+      <pre><code>
+        &lt;h1&gt;This is a heading 1&lt;/h1&gt;
+        &lt;h2&gt;This is a heading 2&lt;/h2&gt;
+        &lt;h3&gt;This is a heading 3&lt;/h3&gt;
+        &lt;h4&gt;This is a heading 4&lt;/h4&gt;
+        &lt;h5&gt;This is a heading 5&lt;/h5&gt;
+        &lt;h6&gt;This is a heading 6&lt;/h6&gt;
+      </code></pre>
+      <h1 class="heading-1">This is a heading 1</h1>
+      <h2 class="heading-2">This is a heading 2</h2>
+      <h3 class="heading-3">This is a heading 3</h3>
+      <h4 class="heading-4">This is a heading 4</h4>
+      <h5 class="heading-5">This is a heading 5</h5>
+      <h6 class="heading-6">This is a heading 6</h6>
+
+      <h3>
+        &lt;ul&gt;
+      </h3>
+  
+      <p>
+        The <code>&lt;ul&gt;</code> tag defines an unordered (bulleted) list.
+        The <code>&lt;li&gt;</code> tag is used to define each list item.
+      </p>
+      <pre><code>
+        
+    &lt;h4&gt;List of desserts:&lt;/h4&gt;
+  
+      &lt;ul&gt;
+        &lt;li&gt;Brownies&lt;/li&gt;
+        &lt;li&gt;Cake&lt;/li&gt;
+        &lt;li&gt;Pie&lt;/li&gt;
+        &lt;li&gt;Pudding&lt;/li&gt;
+        &lt;li&gt;Ice-cream&lt;/li&gt;
+      &lt;/ul&gt;
+      </code></pre>
+  
+    <h4>List of desserts:</h4>
+  
+      <ul>
+        <li>Brownies</li>
+        <li>Cake</li>
+        <li>Pie</li>
+        <li>Pudding</li>
+        <li>Ice-cream</li>
+      </ul>
+  
+      <h3>
+        &lt;ol&gt;
+      </h3>
+      <p>
+        The <code>&lt;ol&gt;</code> tag defines an ordered list.
+        An ordered list can be numerical or alphabetical.
+      </p>
+      <pre><code>
+      &lt;h4&gt;Steps on fixing a flat tire:&lt;/h4&gt;
+    
+        &lt;ol&gt;
+          &lt;li&gt;Remove the valve cap from the tire's valve stem.&lt;/li&gt;
+          &lt;li&gt;Attach the fixed flat canister to the valve stem.&lt;/li&gt;
+          &lt;li&gt;Release the sealant into the tire by pressing the button or trigger on the canister.&lt;/li&gt;
+          &lt;li&gt;Remove the canister and drive the vehicle briefly to distribute the glue inside the tire.&lt;/li&gt;
+          &lt;li&gt;Check the tire's pressure and adjust as needed.&lt;/li&gt;
+        &lt;/ol&gt;
+      </code></pre>
+  
+      <h4>Steps on fixing a flat tire:</h4>
+  
+      <ol>
+        <li>Remove the valve cap from the tire's valve stem.</li>
+        <li>Attach the fixed flat canister to the valve stem.</li>
+        <li>Release the sealant into the tire by pressing the button or trigger on the canister.</li>
+        <li>Remove the canister and drive the vehicle briefly to distribute the glue inside the tire.</li>
+        <li>Check the tire's pressure and adjust as needed.</li>
+      </ol>
+  
+      <h3>
+        &lt;img&gt;
+      </h3>
+  
+      <p>
+        The <code>&lt;img&gt;</code> tag is used to embed an image in an HTML page.
+      </p>
+      <pre><code>
+        &lt;img src="redvelvetcake.jpg" alt="Red Velvet Cake"&gt;&lt;/img&gt;
+      </code></pre>
+  
+      <img src="redvelvetcake.jpg" alt="Red Velvet Cake"></img>
+  
+      <h3>
+        &lt;table&gt;
+      </h3>
+      <p>
+        The <code>&lt;table&gt;</code> tag defines an HTML table.
+      </p>
+      <h3>
+        &lt;tr&gt;
+      </h3>
+      <p>
+        The <code>&lt;tr&gt;</code> tag defines a row in an HTML table.
+      </p>
+      <h3>
+        &lt;th&gt;
+      </h3>
+      <p>
+        The <code>&lt;th&gt;</code> tag defines a header cell in an HTML table.
+      </p>
+      <h3>
+        &lt;td&gt;
+      </h3>
+      <p>
+        The <code>&lt;td&gt;</code> tag defines a standard data cell in an HTML table.
+      </p>
+      <pre><code>
+        &lt;table&gt;
+         &lt;tr&gt;
+            &lt;th&gt;Customer ID&lt;/th&gt;
+            &lt;th&gt;First Name&lt;/th&gt;
+            &lt;th&gt;Last Name&lt;/th&gt;
+            &lt;th&gt;Phone No.&lt;/th&gt;
+            &lt;th&gt;Birth Date&lt;/th&gt;
+          &lt;/tr&gt;
+    
+         &lt;tr&gt;
+            &lt;td&gt;1&lt;/td&gt;
+            &lt;td&gt;Freddi&lt;/td&gt;
+            &lt;td&gt;Boagey&lt;/td&gt;
+            &lt;td&gt;719-724-7869&lt;/td&gt;
+            &lt;td&gt;1985-02-07&lt;/td&gt;
+          &lt;/tr&gt;
+    
+          &lt;tr&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;Ambur&lt;/td&gt;
+            &lt;td&gt;Roseburgh&lt;/td&gt;
+            &lt;td&gt;407-231-8017&lt;/td&gt;
+            &lt;td&gt;1974-04-14&lt;/td&gt;
+          &lt;/tr&gt;
+    
+          &lt;tr&gt;
+            &lt;td&gt;3&lt;/td&gt;
+            &lt;td&gt;Ilene&lt;/td&gt;
+            &lt;td&gt;Dowson&lt;/td&gt;
+            &lt;td&gt;615-641-4759&lt;/td&gt;
+            &lt;td&gt;1964-08-30&lt;/td&gt;
+          &lt;/tr&gt;
+    
+          &lt;tr&gt;
+            &lt;td&gt;4&lt;/td&gt;
+            &lt;td&gt;Elka&lt;/td&gt;
+            &lt;td&gt;Twiddell&lt;/td&gt;
+            &lt;td&gt;312-480-8498&lt;/td&gt;
+            &lt;td&gt;1991-09-04&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+      </code></pre>
+  
+      <table>
+        <tr>
+          <th>Customer ID</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Phone No.</th>
+          <th>Birth Date</th>
+        </tr>
+  
+        <tr>
+          <td>1</td>
+          <td>Freddi</td>
+          <td>Boagey</td>
+          <td>719-724-7869</td>
+          <td>1985-02-07</td>
+        </tr>
+  
+        <tr>
+          <td>2</td>
+          <td>Ambur</td>
+          <td>Roseburgh</td>
+          <td>407-231-8017</td>
+          <td>1974-04-14</td>
+        </tr>
+  
+        <tr>
+          <td>3</td>
+          <td>Ilene</td>
+          <td>Dowson</td>
+          <td>615-641-4759</td>
+          <td>1964-08-30</td>
+        </tr>
+  
+        <tr>
+          <td>4</td>
+          <td>Elka</td>
+          <td>Twiddell</td>
+          <td>312-480-8498</td>
+          <td>1991-09-04</td>
+        </tr>
+      </table>
+    </section>
+    
+    <section id="#css">
+      <h2>
+        CSS Properties
+      </h2>
+      <p>
+        CSS properies define the style and layout of HTML elements.
+      </p>
+      <h3>
+        color
+      </h3>
+      <p>The <code>color</code> property sets the color of text.</p>
+      <pre><code>color: blue;</code></pre>
+      <h3>
+        font-size
+      </h3>
+      <p>The <code>font-size</code> property sets the size of the font.</p>
+      <pre><code>font-size: 12px;</code></pre>
+      <h3>
+        font-family
+      </h3>
+      <p>The <code>font-family</code> property specifies the font for an element.</p>
+      <pre><code>font-family: 'Times New Roman', Times, serif;</code></pre>
+      <h3>
+        background-color
+      </h3>
+      <p>
+        The <code>background-color</code> property sets the background color of an element.
+      </p>
+      <pre><code>background-color: lightblue;</code></pre>
+      <h3>
+        border-width
+      </h3>
+      <p>
+        The <code>border-width</code> property sets the width of an elements's four borders.
+      </p>
+      <pre><code>border-width: 5px;</code></pre>
+      <h3>
+        border-style
+      </h3>
+      <p>
+        The <code>border-style</code> property sets the style of an element's four borders.
+      </p>
+      <pre><code>border-style: solid;</code></pre>
+      <h3>
+        border-color
+      </h3>
+      <p>
+        The <code>border-color</code> property sets the color of an element's four borders.
+      </p>
+      <pre><code>border-color: pink;</code></pre>
+      <h3>
+        border-radius
+      </h3>
+      <p>
+        The <code>border-radius</code> property defines the radius of the element's corners.
+      </p>
+      <pre><code>border-radius: 25px;</code></pre>
+      <h3>
+        padding
+      </h3>
+      <p>
+        An element's padding is the space between its content and its border. 
+        The <code>padding</code> property sets the padding for all four sides of an element.
+      </p>
+      <pre><code>padding: 20px;</code></pre>
+      <h3>
+        margin
+      </h3>
+      <p>The <code>margin</code> property sets the margin for all four sides of an element.</p>
+      <pre><code>margin: 30px;</code></pre>
+      <h3>
+        height
+      </h3>
+      <p>The <code>height</code> property sets the height of an element.</p>
+      <pre><code>height: 25px;</code></pre>
+      <h3>
+        width
+      </h3>
+      <p>The <code>width</code> property sets the width of an element.</p>
+      <pre><code>width: 15px;</code></pre>
+      <h3>
+        box-shadow
+      </h3>
+      <p>The <code>box-shadow</code> property attaches one or more shadows to an element.</p>
+      <pre><code>box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);</code></pre>
+      <h3>
+        opacity
+      </h3>
+      <p>The <code>opacity</code> property sets the opacity level for an element.</p>
+      <pre><code>opacity: 0.5;</code></pre>
+
+    </section>
+
+  </body>
+</html>
