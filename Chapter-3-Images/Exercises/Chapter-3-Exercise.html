@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chapter 3: Exercise </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Dongle:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+
+      .forest-div,
+      .river-div,
+      .mountain-div {
+        display: flex;
+        align-items: top;
+        margin: 10px;
+        display: inline-block;
+        padding: 5px;
+      }
+
+      .forest-image, 
+      .river-image,
+      .mountain-image {
+        width: 500px;
+        height: auto;
+        object-fit: contain;
+      }
+
+      .forest-image {
+        filter: contrast(75%);
+        filter: drop-shadow(5px 5px 4px black);
+      }
+
+      .river-image {
+        filter: saturate(75%);
+        filter: blur(1px);
+      }
+
+      .mountain-image {
+        filter: sepia(25%);
+        filter: grayscale(100%);
+      }
+
+      p {
+        font-family: Roboto;
+        font-size: 18px;
+        background-color: rgb(213, 213, 213);
+        padding: 5px;
+        border-radius: 3px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="forest-div">
+      <img class="forest-image" src="forest.jpg" alt="Sunset overlooking a forest" title="Forest">
+      <p>Copyright: Licensed under Unsplash.</p>
+    </div>
+
+    <div class="river-div">
+      <img class="river-image" src="river.jpg" alt="River flowing through a forest" title="River">
+      <p>Copyright: Licensed under Splash Water Magazine.</p>
+    </div>
+
+    <div class="mountain-div">
+    <img class="mountain-image" src="mountain.jpg" alt="Grassy mountains under a blue sky" title="Mountain">
+    <p>Copyright: Licensed under Geographical.</p>
+    </div>
+
+  </body>
+</html>
