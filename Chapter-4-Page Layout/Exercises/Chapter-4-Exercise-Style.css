@@ -1,0 +1,134 @@
+body {
+  background-color: #17072b;
+}
+
+
+.heading {
+  font-family: Tahoma;
+  font-weight: 700;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.navigation-menu {
+  display: flex;
+  flex-direction: row;
+  margin-right: 325px;
+  margin-left: 325px;
+  margin-top: 0;
+}
+
+.home,
+.about,
+.whats-on,
+.contact,
+.tickets {
+  color: white;
+  display: inline-block;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 18px;
+  flex: 1;
+  text-align: center;
+}
+
+.welcome-background {
+  background-color: white;
+  margin-bottom: 0;
+}
+
+.welcome-heading {
+  font-family: Arial;
+}
+
+.welcome-text {
+  font-family: Arial;
+  width: 625px;
+}
+
+.html-image {
+  width: 625px;
+  height: 262px;
+}
+
+.image1 {
+  margin-bottom: 20px;
+}
+
+.line-up {
+  color: white;
+  display: inline-block;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.line-up-heading {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.line-up-list {
+  color: white;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: 400;
+  margin-bottom: 35px;
+  line-height: 25px;
+  margin-left: 20px;
+}
+
+.motherboard1-image {
+  width: 135px;
+  height: 160px;
+  margin-right: 5px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.motherboard2-image {
+  width: 145px;
+  height: 160px;
+  margin-bottom: 20px;
+}
+
+.motherboard1,
+.motherboard2,
+.motherboard1-image,
+.motherboard2-image {
+  display: inline-block;
+}
+
+.line-up-div {
+  background-color: #172d67;
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  height: 400px;
+  margin-left: 75px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.welcome-div {
+  width: 600px;
+  display: inline-block;
+  margin-left: 25px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+footer {
+  background-color: rgb(146, 58, 234);
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  height: 38px;
+  font-family: Arial;
+  position: absolute;
+  width: 1264px;
+}
+
+
