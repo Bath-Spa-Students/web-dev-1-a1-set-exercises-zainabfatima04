@@ -1,0 +1,63 @@
+body {
+  color: white;
+  background-color: #ff43a1;
+  padding-bottom: 100px;
+}
+
+p, ul, .title, .overview, .plot, .cast, .reviews{
+  margin: 0;
+}
+
+p, ul {
+  font-family: Montserrat;
+  font-size: 18px;
+  margin-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+  background-color: rgb(87, 112, 187);
+}
+
+.title {
+  font-family: Poppins;
+  font-size: 30px;
+  color: #FF1D8E;
+  background-color: rgb(228, 227, 227);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+ .title, .overview, .plot, .cast, .reviews {
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.overview, .plot, .cast, .reviews {
+  font-family: Poppins;
+  font-size: 20px;
+  color: rgb(87, 112, 187);
+  background-color: #d0e0f8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+ a {
+  font-family: Montserrat;
+  font-size: 15px;
+  margin-top: 20px;
+  color: rgb(230, 229, 229);
+ }
+
+
