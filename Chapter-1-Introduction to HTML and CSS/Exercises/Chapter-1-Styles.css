@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(255, 160, 165);
+  font-family: Roboto Slab;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+h1, h2 {
+  color: rgb(165, 0, 9);
+}
+
+p, ul, ol {
+  font-size: 18px;
+}
+
+img {
+  height: 300px;
+  width: 400px;
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+

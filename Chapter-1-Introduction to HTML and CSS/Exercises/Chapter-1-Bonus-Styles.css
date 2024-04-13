@@ -1,0 +1,98 @@
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  font-family: Poppins;
+}
+
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #666;
+}
+
+p, ul, ol {
+  font-family: Poppins;
+}
+
+.my-div {
+  border-width: 5px;
+  border-style: solid;
+  border-color: grey;
+  color: white;
+  background-color: rgb(165, 12, 165);
+  text-align: center;
+}
+
+.div-heading {
+  font-family: Poppins;
+  color: white;
+}
+
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.subscribe-button:hover {
+  opacity: 0.5;
+}
+
+.heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
+  font-family: Poppins;
+}
+
+img {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+}
+
+table, th, td {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
